@@ -73,7 +73,7 @@ struct fstab_rec {
     int swap_prio;
     unsigned int zram_size;
     unsigned int file_encryption_mode;
-};
+
 
 // Callback function for verity status
 typedef void (*fs_mgr_verity_state_callback)(struct fstab_rec *fstab,
